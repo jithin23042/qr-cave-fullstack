@@ -87,7 +87,7 @@ const Generate = () => {
           <ArrowLeft className="w-4 h-4" />
           <QrCode className="w-7 h-7 text-primary" />
           <span className="font-display text-xl font-bold tracking-tight text-foreground">
-            QRForge
+            QR Cave
           </span>
         </button>
       </nav>

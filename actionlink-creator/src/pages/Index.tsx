@@ -34,7 +34,7 @@ const Index = () => {
       <nav className="relative z-10 flex items-center justify-between px-6 md:px-12 py-6 max-w-7xl mx-auto">
         <div className="flex items-center gap-2">
           <QrCode className="w-7 h-7 text-primary" />
-          <span className="font-display text-xl font-bold tracking-tight text-foreground">QRForge</span>
+          <span className="font-display text-xl font-bold tracking-tight text-foreground">QR Cave</span>
         </div>
         <Button variant="heroOutline" size="sm" onClick={() => navigate("/generate")}>
           Get Started
