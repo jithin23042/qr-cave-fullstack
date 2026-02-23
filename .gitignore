@@ -1,0 +1,14 @@
+# Node
+node_modules/
+
+# Build outputs
+dist/
+
+# Environment files
+.env
+
+# QR generated files
+qr-backend/qrs/
+
+# Logs
+npm-debug.log*
