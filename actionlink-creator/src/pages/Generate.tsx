@@ -26,8 +26,7 @@ const Generate = () => {
 
   const handleGenerate = async () => {
     if (!isValidUrl(url)) return;
-
-    const response = await fetch("http://localhost:5000/api/qr", {
+    const response = await fetch(`/api/qr`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

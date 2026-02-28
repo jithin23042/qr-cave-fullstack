@@ -35,7 +35,7 @@ app.post("/api/qr", (req, res) => {
 
   writeStream.on("finish", () => {
     res.json({
-      qrImage: `http://localhost:5000/qrs/${fileName}`
+      qrImage: `/qrs/${fileName}`
     });
   });
 

@@ -1,0 +1,11 @@
+frontend:
+  build:
+    context: ./actionlink-creator
+    args:
+      VITE_API_URL: http://backend:5000
+  container_name: qr-frontend
+  ports:
+    - "8080:80"
+  depends_on:
+    - backend
+  restart: always
